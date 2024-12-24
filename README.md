@@ -42,5 +42,7 @@ year={2024}
 }
 ```
 
-#### The code is still being organized.🚧
+## 👍 Acknowledgement
+The codebase of FedCFA is adapted from [FedLab](https://github.com/SMILELab-FL/FedLab).
 
+#### The code is still being organized.🚧
