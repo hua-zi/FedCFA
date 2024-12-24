@@ -1,0 +1,6 @@
+numpy
+pandas
+pynvml
+tqdm
+scikit-learn
+munch
