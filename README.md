@@ -3,7 +3,7 @@
 
 <h5 align=center>
 
-[![arXiv](https://img.shields.io/badge/Arxiv-xxxx.xxxx-red?logo=arxiv&label=Arxiv&color=red)]([https://arxiv.org/abs/2406.18139](https://github.com/hua-zi/FedCFA))
+[![arXiv](https://img.shields.io/badge/Arxiv-xxxx.xxxx-red?logo=arxiv&label=Arxiv&color=red)](https://github.com/hua-zi/FedCFA)
 [![License](https://img.shields.io/badge/Code%20License-MIT%20License-yellow)](https://github.com/hua-zi/FedCFA/blob/main/LICENSE)
 ![GitHub Repo stars](https://img.shields.io/github/stars/hua-zi/FedCFA)
 </h5>
@@ -29,17 +29,30 @@ pip install -e .
 cd alg
 sh run.sh
 ```
+or
+```
+cd alg
+python main.py \
+    --topk 24 \
+    --fedcfa_rate 1:5:5 \
+    --alg fedcfa \
+    --com_round 500 \
+    --total_client 60 \
+    --alpha 0.6 \
+    --data_name CIFAR10 \
+    --partition dirichlet
+```
 ## Citation
 
 #### If you find our work valuable, we would appreciate your citation: 🎈
 
 ```bibtex
 @inproceedings{
-jiang2024fedcfa,
-title={FedCFA: Alleviating Simpson's Paradox in Model Aggregation with Counterfactual Federated Learning},
-author={Anonymous},
-booktitle={The 39th Annual AAAI Conference on Artificial Intelligence},
-year={2024}
+  jiang2024fedcfa,
+  title={FedCFA: Alleviating Simpson's Paradox in Model Aggregation with Counterfactual Federated Learning},
+  author={Zhonghua Jiang and Jimin Xu and Shengyu Zhang and Tao Shen and Jiwei Li and Kun Kuang and Haibin Cai and Fei Wu},
+  booktitle={The 39th Annual AAAI Conference on Artificial Intelligence},
+  year={2024}
 }
 ```
 
