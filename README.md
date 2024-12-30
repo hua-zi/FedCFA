@@ -47,12 +47,14 @@ python main.py \
 #### If you find our work valuable, we would appreciate your citation: 🎈
 
 ```bibtex
-@inproceedings{
-  jiang2024fedcfa,
-  title={FedCFA: Alleviating Simpson's Paradox in Model Aggregation with Counterfactual Federated Learning},
-  author={Zhonghua Jiang and Jimin Xu and Shengyu Zhang and Tao Shen and Jiwei Li and Kun Kuang and Haibin Cai and Fei Wu},
-  booktitle={The 39th Annual AAAI Conference on Artificial Intelligence},
-  year={2024}
+@misc{jiang2024fedcfa,
+      title={FedCFA: Alleviating Simpson's Paradox in Model Aggregation with Counterfactual Federated Learning}, 
+      author={Zhonghua Jiang and Jimin Xu and Shengyu Zhang and Tao Shen and Jiwei Li and Kun Kuang and Haibin Cai and Fei Wu},
+      year={2024},
+      eprint={2412.18904},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2412.18904}, 
 }
 ```
 
