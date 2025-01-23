@@ -5,6 +5,7 @@
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2412.18904-red?logo=arxiv&label=Arxiv&color=red)](https://arxiv.org/abs/2412.18904)
 [![License](https://img.shields.io/badge/Code%20License-MIT%20License-yellow)](https://github.com/hua-zi/FedCFA/blob/main/LICENSE)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhua-zi%2FFedCFA&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitor&edge_flat=false)](https://hits.seeyoufarm.com)
 ![GitHub Repo stars](https://img.shields.io/github/stars/hua-zi/FedCFA)
 </h5>
 
